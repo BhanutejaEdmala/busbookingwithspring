@@ -12,7 +12,7 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.stream.Collectors;
 @org.springframework.stereotype.Service
-public class Service {
+public class Service implements  ServiceInterface {
     @Autowired
     BusRepo brepo;
     @Autowired
